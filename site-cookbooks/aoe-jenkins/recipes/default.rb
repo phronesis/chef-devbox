@@ -42,6 +42,6 @@ cron "jenkins-backup" do
   minute '0'
   hour '1'
   user 'jenkins'
-  # mailto 'addemailhere'
+  mailto 'david.umoh@gloo.ng'
   command "/var/lib/jenkins/jenkins_backup.sh"
 end
